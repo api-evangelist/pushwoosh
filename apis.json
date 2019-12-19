@@ -1,0 +1,55 @@
+{
+    "name": "Pushwoosh",
+    "description": "Pushwoosh helps you address your audience with highly customizable push notifications. Speak to the users on their own language, deliver your values and push the world",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/1120-pushwoosh.jpg",
+    "tags": [
+        "have api"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/pushwoosh\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "Pushwoosh",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/1120-pushwoosh.jpg",
+            "humanURL": "http:\/\/www.pushwoosh.com\/",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/pushwoosh-openapi.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Blog",
+            "url": "http:\/\/www.pushwoosh.com\/blog\/"
+        },
+        {
+            "type": "Blog RSS",
+            "url": "http:\/\/www.pushwoosh.com\/feed\/"
+        },
+        {
+            "type": "Crunchbase",
+            "url": "http:\/\/www.crunchbase.com\/company\/pushwoosh"
+        },
+        {
+            "type": "Crunchbase",
+            "url": "https:\/\/crunchbase.com\/organization\/pushwoosh"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/Pushwoosh"
+        },
+        {
+            "type": "Website",
+            "url": "http:\/\/www.pushwoosh.com\/"
+        }
+    ]
+}
