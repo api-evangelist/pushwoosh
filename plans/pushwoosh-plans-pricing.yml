@@ -13,11 +13,13 @@ tags:
 - SMS
 - Multi-Channel
 - Plans
-description: Placeholder plans/pricing artifact for Pushwoosh. Replace with real published pricing once
-  the pipeline researches the provider's plans page.
-notes: Initial scaffold — plans/pricing have not yet been reconciled against the provider's documentation.
+description: Placeholder plans/pricing artifact for Pushwoosh. Replace with real published pricing once the pipeline researches
+  the provider's plans page.
+notes: "Initial scaffold \u2014 plans/pricing have not yet been reconciled against the provider's documentation."
 sources:
 - https://www.pushwoosh.com/
+- https://docs.pushwoosh.com/
+- https://docs.pushwoosh.com/platform-docs/api-reference
 plans:
 - id: pushwoosh-default
   name: To Be Reconciled

@@ -1,6 +1,6 @@
 # Pushwoosh (pushwoosh)
 
-Pushwoosh is a customer engagement platform offering push notifications, in-app messaging, email, SMS, and Live Activities for mobile and web. Strong segmentation and journey-builder.
+Pushwoosh is a customer engagement platform with push notifications, email, in-app and SMS APIs across mobile and web.
 
 **URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/pushwoosh/refs/heads/main/apis.yml)
 
@@ -9,18 +9,28 @@ Pushwoosh is a customer engagement platform offering push notifications, in-app 
 ## Type
 - **x-type:** company
 
-## Tags:
- - Notifications, Push, Email, SMS, Multi-Channel
+## Tags
+- Notifications, Push, Messaging
 
 ## Timestamps
 - **Created:** 2026-05-08
 - **Modified:** 2026-05-08
+
+## APIs
+- **Pushwoosh Messaging API** — Send push notifications, email, SMS and in-app messages to user audiences.
+- **Pushwoosh Devices & Users API** — Register and manage devices and end-user profiles.
+- **Pushwoosh Audience & Segmentation API** — Tags, filters and segments for dynamic audience targeting.
+- **Pushwoosh Statistics API** — Read campaign and message performance statistics.
 
 ## Common Properties
 - [Website](https://www.pushwoosh.com/)
 - [Plans](plans/pushwoosh-plans-pricing.yml) — placeholder, pipeline reconciles later
 - [RateLimits](rate-limits/pushwoosh-rate-limits.yml) — placeholder
 - [FinOps](finops/pushwoosh-finops.yml) — FOCUS-aligned placeholder
+
+## Documentation
+- [Developer Docs](https://docs.pushwoosh.com/)
+- [API Reference](https://docs.pushwoosh.com/platform-docs/api-reference)
 
 ## Maintainers
 **FN:** Kin Lane
