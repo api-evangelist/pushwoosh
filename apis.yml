@@ -63,6 +63,28 @@ common:
   url: rate-limits/pushwoosh-rate-limits.yml
 - type: FinOps
   url: finops/pushwoosh-finops.yml
+- type: Integrations
+  url: https://www.pushwoosh.com/integrations/
+integrations:
+  - name: Adjust
+  - name: Amplitude
+  - name: AppsFlyer
+  - name: AppsFlyer ESP 2.0
+  - name: Crashlytics
+  - name: Event Streaming
+  - name: Google Analytics
+  - name: HubSpot
+  - name: Marketo
+  - name: Mixpanel
+  - name: mParticle
+  - name: Piano
+  - name: Qonversion
+  - name: RevenueCat
+  - name: Segment
+  - name: Shopify
+  - name: Singular
+  - name: Solitics
+  - name: WebViewGold
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
