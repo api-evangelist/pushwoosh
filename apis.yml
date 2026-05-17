@@ -1,7 +1,7 @@
 aid: pushwoosh
 url: https://raw.githubusercontent.com/api-evangelist/pushwoosh/refs/heads/main/apis.yml
 name: Pushwoosh
-x-type: company
+kind: company
 description: Pushwoosh is a customer engagement platform offering push notifications, in-app messaging, email, SMS, and Live
   Activities for mobile and web. Strong segmentation and journey-builder.
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
