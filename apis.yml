@@ -6,65 +6,69 @@ description: Pushwoosh is a customer engagement platform offering push notificat
   Activities for mobile and web. Strong segmentation and journey-builder.
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-- Notifications
-- Push
-- Email
-- SMS
-- Multi-Channel
+  - Notifications
+  - Push
+  - Email
+  - SMS
+  - Multi-Channel
 created: '2026-05-08'
 modified: '2026-05-08'
 specificationVersion: '0.19'
 apis:
-- name: Pushwoosh Messaging API
-  description: Send push notifications, email, SMS and in-app messages to user audiences.
-  humanURL: https://docs.pushwoosh.com/platform-docs/api-reference
-  baseURL: https://api.pushwoosh.com
-  tags:
-  - Push
-  - Email
-  - SMS
-  properties:
-  - type: Documentation
-    url: https://docs.pushwoosh.com/platform-docs/api-reference
-- name: Pushwoosh Devices & Users API
-  description: Register and manage devices and end-user profiles.
-  humanURL: https://docs.pushwoosh.com/platform-docs/api-reference
-  baseURL: https://api.pushwoosh.com
-  tags:
-  - Devices
-  - Users
-  properties:
-  - type: Documentation
-    url: https://docs.pushwoosh.com/platform-docs/api-reference
-- name: Pushwoosh Audience & Segmentation API
-  description: Tags, filters and segments for dynamic audience targeting.
-  humanURL: https://docs.pushwoosh.com/platform-docs/api-reference
-  baseURL: https://api.pushwoosh.com
-  tags:
-  - Segmentation
-  properties:
-  - type: Documentation
-    url: https://docs.pushwoosh.com/platform-docs/api-reference
-- name: Pushwoosh Statistics API
-  description: Read campaign and message performance statistics.
-  humanURL: https://docs.pushwoosh.com/platform-docs/api-reference
-  baseURL: https://api.pushwoosh.com
-  tags:
-  - Analytics
-  properties:
-  - type: Documentation
-    url: https://docs.pushwoosh.com/platform-docs/api-reference
+  - name: Pushwoosh Messaging API
+    description: Send push notifications, email, SMS and in-app messages to user audiences.
+    humanURL: https://docs.pushwoosh.com/platform-docs/api-reference
+    baseURL: https://api.pushwoosh.com
+    tags:
+    - Push
+    - Email
+    - SMS
+    properties:
+    - type: Documentation
+      url: https://docs.pushwoosh.com/platform-docs/api-reference
+  - name: Pushwoosh Devices & Users API
+    description: Register and manage devices and end-user profiles.
+    humanURL: https://docs.pushwoosh.com/platform-docs/api-reference
+    baseURL: https://api.pushwoosh.com
+    tags:
+    - Devices
+    - Users
+    properties:
+    - type: Documentation
+      url: https://docs.pushwoosh.com/platform-docs/api-reference
+  - name: Pushwoosh Audience & Segmentation API
+    description: Tags, filters and segments for dynamic audience targeting.
+    humanURL: https://docs.pushwoosh.com/platform-docs/api-reference
+    baseURL: https://api.pushwoosh.com
+    tags:
+    - Segmentation
+    properties:
+    - type: Documentation
+      url: https://docs.pushwoosh.com/platform-docs/api-reference
+  - name: Pushwoosh Statistics API
+    description: Read campaign and message performance statistics.
+    humanURL: https://docs.pushwoosh.com/platform-docs/api-reference
+    baseURL: https://api.pushwoosh.com
+    tags:
+    - Analytics
+    properties:
+    - type: Documentation
+      url: https://docs.pushwoosh.com/platform-docs/api-reference
 common:
-- type: Website
-  url: https://www.pushwoosh.com/
-- type: Plans
-  url: plans/pushwoosh-plans-pricing.yml
-- type: RateLimits
-  url: rate-limits/pushwoosh-rate-limits.yml
-- type: FinOps
-  url: finops/pushwoosh-finops.yml
-- type: Integrations
-  url: https://www.pushwoosh.com/integrations/
+  - type: GitHubOrganization
+    url: https://github.com/Pushwoosh
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/pushwoosh
+  - type: Website
+    url: https://www.pushwoosh.com/
+  - type: Plans
+    url: plans/pushwoosh-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/pushwoosh-rate-limits.yml
+  - type: FinOps
+    url: finops/pushwoosh-finops.yml
+  - type: Integrations
+    url: https://www.pushwoosh.com/integrations/
 integrations:
   - name: Adjust
   - name: Amplitude
@@ -86,5 +90,5 @@ integrations:
   - name: Solitics
   - name: WebViewGold
 maintainers:
-- FN: Kin Lane
-  email: kin@apievangelist.com
+  - FN: Kin Lane
+    email: kin@apievangelist.com
