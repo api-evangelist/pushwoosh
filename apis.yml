@@ -69,6 +69,8 @@ common:
     url: finops/pushwoosh-finops.yml
   - type: Integrations
     url: https://www.pushwoosh.com/integrations/
+  - type: LLMsTxt
+    url: https://docs.pushwoosh.com/llms.txt
 integrations:
   - name: Adjust
   - name: Amplitude
