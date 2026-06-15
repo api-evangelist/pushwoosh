@@ -1,0 +1,78 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Pushwoosh Messaging API",
+    "version": "1.3"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "Messages",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "Create a message (deprecated, use createTargetedMessage or Messaging API v2)",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://api.pushwoosh.com/json/1.3/createMessage",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "Create a message (deprecated, use createTargetedMessage or Messaging API v2)"
+        },
+        {
+          "info": {
+            "name": "Create a targeted message",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://api.pushwoosh.com/json/1.3/createTargetedMessage",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "Create a targeted message"
+        },
+        {
+          "info": {
+            "name": "Delete a queued message",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://api.pushwoosh.com/json/1.3/deleteMessage",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "Delete a queued message"
+        },
+        {
+          "info": {
+            "name": "Retrieve message details",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://api.pushwoosh.com/json/1.3/getMessageDetails",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "Retrieve message details"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}
