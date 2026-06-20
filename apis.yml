@@ -4,7 +4,7 @@ name: Pushwoosh
 kind: company
 description: Pushwoosh is a customer engagement platform offering push notifications, in-app messaging, email, SMS, and Live
   Activities for mobile and web. Strong segmentation and journey-builder.
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
   - Notifications
   - Push
