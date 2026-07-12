@@ -55,6 +55,10 @@ apis:
     - type: Documentation
       url: https://docs.pushwoosh.com/platform-docs/api-reference
 common:
+  - type: TrustCenter
+    url: security/pushwoosh-trust-center.yml
+  - type: DomainSecurity
+    url: security/pushwoosh-domain-security.yml
   - type: GitHubOrganization
     url: https://github.com/Pushwoosh
   - type: LinkedIn
@@ -71,6 +75,8 @@ common:
     url: https://www.pushwoosh.com/integrations/
   - type: LlmsText
     url: https://docs.pushwoosh.com/llms.txt
+  - type: Blog
+    url: https://www.pushwoosh.com/blog/
 integrations:
   - name: Adjust
   - name: Amplitude
