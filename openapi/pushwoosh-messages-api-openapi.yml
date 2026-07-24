@@ -1,29 +1,33 @@
 openapi: 3.1.0
 info:
-  title: Pushwoosh Messaging API
-  version: "1.3"
-  description: |
-    Pushwoosh is a customer engagement platform offering push notifications,
+  title: Pushwoosh Messaging Messages API
+  version: '1.3'
+  description: 'Pushwoosh is a customer engagement platform offering push notifications,
+
     in-app messaging, email, SMS, and Live Activities for mobile and web.
+
     The Messaging API (v1.3) exposes JSON-RPC-style endpoints for creating
+
     and managing messages, targeted campaigns, and message details.
+
     Authentication is performed by including the `auth` field (API access
+
     token from the Pushwoosh Control Panel) in the JSON request body.
+
+    '
   contact:
     name: Pushwoosh
     url: https://www.pushwoosh.com/
-externalDocs:
-  description: Pushwoosh platform API reference
-  url: https://docs.pushwoosh.com/platform-docs/api-reference
 servers:
-  - url: https://api.pushwoosh.com/json/1.3
-    description: Pushwoosh JSON Messaging API
+- url: https://api.pushwoosh.com/json/1.3
+  description: Pushwoosh JSON Messaging API
 tags:
-  - name: Messages
+- name: Messages
 paths:
   /createMessage:
     post:
-      tags: [Messages]
+      tags:
+      - Messages
       summary: Create a message (deprecated, use createTargetedMessage or Messaging API v2)
       operationId: createMessage
       requestBody:
@@ -32,11 +36,15 @@ paths:
           application/json:
             schema:
               type: object
-              required: [request]
+              required:
+              - request
               properties:
                 request:
                   type: object
-                  required: [auth, application, notifications]
+                  required:
+                  - auth
+                  - application
+                  - notifications
                   properties:
                     auth:
                       type: string
@@ -49,7 +57,7 @@ paths:
                       items:
                         $ref: '#/components/schemas/Notification'
       responses:
-        "200":
+        '200':
           description: Standard JSON response envelope.
           content:
             application/json:
@@ -57,7 +65,8 @@ paths:
                 $ref: '#/components/schemas/StandardResponse'
   /createTargetedMessage:
     post:
-      tags: [Messages]
+      tags:
+      - Messages
       summary: Create a targeted message
       operationId: createTargetedMessage
       requestBody:
@@ -66,30 +75,38 @@ paths:
           application/json:
             schema:
               type: object
-              required: [request]
+              required:
+              - request
               properties:
                 request:
                   type: object
-                  required: [auth, devices_filter, send_date, content]
+                  required:
+                  - auth
+                  - devices_filter
+                  - send_date
+                  - content
                   properties:
                     auth:
                       type: string
                       description: API access token.
                     devices_filter:
                       type: string
-                      description: |
-                        Targeting filter expression. Combines app selectors
+                      description: 'Targeting filter expression. Combines app selectors
+
                         (`A("APP-CODE")`) and tag predicates (`T("Tag", EQ,
+
                         "value")`) using boolean operators.
+
+                        '
                     send_date:
                       type: string
                       description: '`now` or `YYYY-MM-DD HH:mm`.'
                     content:
                       oneOf:
-                        - type: string
-                        - type: object
-                          additionalProperties:
-                            type: string
+                      - type: string
+                      - type: object
+                        additionalProperties:
+                          type: string
                       description: Notification text or locale map of texts.
                     ios_title:
                       type: string
@@ -101,7 +118,7 @@ paths:
                       type: object
                       additionalProperties: true
       responses:
-        "200":
+        '200':
           description: Standard JSON response envelope.
           content:
             application/json:
@@ -109,7 +126,8 @@ paths:
                 $ref: '#/components/schemas/StandardResponse'
   /deleteMessage:
     post:
-      tags: [Messages]
+      tags:
+      - Messages
       summary: Delete a queued message
       operationId: deleteMessage
       requestBody:
@@ -118,11 +136,14 @@ paths:
           application/json:
             schema:
               type: object
-              required: [request]
+              required:
+              - request
               properties:
                 request:
                   type: object
-                  required: [auth, message]
+                  required:
+                  - auth
+                  - message
                   properties:
                     auth:
                       type: string
@@ -130,7 +151,7 @@ paths:
                       type: string
                       description: Message code returned by createMessage.
       responses:
-        "200":
+        '200':
           description: Standard JSON response envelope.
           content:
             application/json:
@@ -138,7 +159,8 @@ paths:
                 $ref: '#/components/schemas/StandardResponse'
   /getMessageDetails:
     post:
-      tags: [Messages]
+      tags:
+      - Messages
       summary: Retrieve message details
       operationId: getMessageDetails
       requestBody:
@@ -147,11 +169,14 @@ paths:
           application/json:
             schema:
               type: object
-              required: [request]
+              required:
+              - request
               properties:
                 request:
                   type: object
-                  required: [auth, message]
+                  required:
+                  - auth
+                  - message
                   properties:
                     auth:
                       type: string
@@ -159,7 +184,7 @@ paths:
                       type: string
                       description: Message code or message ID.
       responses:
-        "200":
+        '200':
           description: Standard JSON response envelope with message metadata.
           content:
             application/json:
@@ -177,10 +202,10 @@ components:
           description: '`now` or `YYYY-MM-DD HH:mm`.'
         content:
           oneOf:
-            - type: string
-            - type: object
-              additionalProperties:
-                type: string
+          - type: string
+          - type: object
+            additionalProperties:
+              type: string
         devices:
           type: array
           maxItems: 1000
@@ -220,3 +245,6 @@ components:
         response:
           type: object
           additionalProperties: true
+externalDocs:
+  description: Pushwoosh platform API reference
+  url: https://docs.pushwoosh.com/platform-docs/api-reference
