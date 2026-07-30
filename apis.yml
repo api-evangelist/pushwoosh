@@ -4,7 +4,19 @@ name: Pushwoosh
 kind: company
 description: Pushwoosh is a customer engagement platform offering push notifications, in-app messaging, email, SMS, and Live
   Activities for mobile and web. Strong segmentation and journey-builder.
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source:
+  - plans
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pushwoosh.png
 tags:
   - Notifications
   - Push
@@ -15,45 +27,55 @@ created: '2026-05-08'
 modified: '2026-05-08'
 specificationVersion: '0.19'
 apis:
-  - name: Pushwoosh Messaging API
-    description: Send push notifications, email, SMS and in-app messages to user audiences.
-    humanURL: https://docs.pushwoosh.com/platform-docs/api-reference
-    baseURL: https://api.pushwoosh.com
-    tags:
-    - Push
-    - Email
-    - SMS
-    properties:
-    - type: Documentation
-      url: https://docs.pushwoosh.com/platform-docs/api-reference
-  - name: Pushwoosh Devices & Users API
-    description: Register and manage devices and end-user profiles.
-    humanURL: https://docs.pushwoosh.com/platform-docs/api-reference
-    baseURL: https://api.pushwoosh.com
-    tags:
-    - Devices
-    - Users
-    properties:
-    - type: Documentation
-      url: https://docs.pushwoosh.com/platform-docs/api-reference
-  - name: Pushwoosh Audience & Segmentation API
-    description: Tags, filters and segments for dynamic audience targeting.
-    humanURL: https://docs.pushwoosh.com/platform-docs/api-reference
-    baseURL: https://api.pushwoosh.com
-    tags:
-    - Segmentation
-    properties:
-    - type: Documentation
-      url: https://docs.pushwoosh.com/platform-docs/api-reference
-  - name: Pushwoosh Statistics API
-    description: Read campaign and message performance statistics.
-    humanURL: https://docs.pushwoosh.com/platform-docs/api-reference
-    baseURL: https://api.pushwoosh.com
-    tags:
-    - Analytics
-    properties:
-    - type: Documentation
-      url: https://docs.pushwoosh.com/platform-docs/api-reference
+- name: Pushwoosh Messaging API
+  description: Send push notifications, email, SMS and in-app messages to user audiences.
+  humanURL: https://docs.pushwoosh.com/platform-docs/api-reference
+  baseURL: https://api.pushwoosh.com
+  tags:
+  - Push
+  - Email
+  - SMS
+  properties:
+  - type: Documentation
+    url: https://docs.pushwoosh.com/platform-docs/api-reference
+- name: Pushwoosh Devices & Users API
+  description: Register and manage devices and end-user profiles.
+  humanURL: https://docs.pushwoosh.com/platform-docs/api-reference
+  baseURL: https://api.pushwoosh.com
+  tags:
+  - Devices
+  - Users
+  properties:
+  - type: Documentation
+    url: https://docs.pushwoosh.com/platform-docs/api-reference
+- name: Pushwoosh Audience & Segmentation API
+  description: Tags, filters and segments for dynamic audience targeting.
+  humanURL: https://docs.pushwoosh.com/platform-docs/api-reference
+  baseURL: https://api.pushwoosh.com
+  tags:
+  - Segmentation
+  properties:
+  - type: Documentation
+    url: https://docs.pushwoosh.com/platform-docs/api-reference
+- name: Pushwoosh Statistics API
+  description: Read campaign and message performance statistics.
+  humanURL: https://docs.pushwoosh.com/platform-docs/api-reference
+  baseURL: https://api.pushwoosh.com
+  tags:
+  - Analytics
+  properties:
+  - type: Documentation
+    url: https://docs.pushwoosh.com/platform-docs/api-reference
+- aid: pushwoosh:pushwoosh-messages-api
+  name: Pushwoosh Messages API
+  description: The Messages API from Pushwoosh — 4 operation(s) for messages.
+  humanURL: https://docs.pushwoosh.com/platform-docs/api-reference
+  baseURL: https://api.pushwoosh.com
+  tags:
+  - Messages
+  properties:
+  - type: OpenAPI
+    url: openapi/pushwoosh-messages-api-openapi.yml
 common:
   - type: AgenticAccess
     url: agentic-access/pushwoosh-agentic-access.yml
