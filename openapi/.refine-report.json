@@ -1,0 +1,14 @@
+{
+  "provider": "pushwoosh",
+  "sources": [
+    "pushwoosh-messages-api-openapi.yml"
+  ],
+  "outputs": [
+    "pushwoosh-messages-api-openapi.yml"
+  ],
+  "archived": [],
+  "errors": [],
+  "warnings": [],
+  "notes": [],
+  "skipped": []
+}
