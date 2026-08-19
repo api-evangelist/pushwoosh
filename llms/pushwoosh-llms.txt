@@ -1,0 +1,57 @@
+# Pushwoosh
+
+> Pushwoosh is a customer engagement platform for sending push notifications, emails, SMS, in-app messages, and WhatsApp across mobile, web, and cross-platform apps. Use this file for quick navigation. For a detailed section-by-section index, see [Detailed index](https://docs.pushwoosh.com/llms-index-detailed.txt).
+
+Start with llms.txt.
+Use llms-index-detailed.txt for a more detailed English index.
+Use language roots for localized docs.
+
+Primary domain: https://docs.pushwoosh.com
+
+## Available languages
+
+Use English links for canonical documentation paths. For localized documentation, open the language roots below.
+
+- [English (en)](https://docs.pushwoosh.com/): Canonical language for full index coverage.
+- [Chinese (zh)](https://docs.pushwoosh.com/zh/): Localized docs available on website.
+- [Spanish (es)](https://docs.pushwoosh.com/es/): Localized docs available on website.
+- [French (fr)](https://docs.pushwoosh.com/fr/): Localized docs available on website.
+- [German (de)](https://docs.pushwoosh.com/de/): Localized docs available on website.
+- [Russian (ru)](https://docs.pushwoosh.com/ru/): Localized docs available on website.
+- [Hindi (hi)](https://docs.pushwoosh.com/hi/): Localized docs available on website.
+- [Arabic (ar)](https://docs.pushwoosh.com/ar/): Localized docs available on website.
+- [Bengali (bn)](https://docs.pushwoosh.com/bn/): Localized docs available on website.
+- [Portuguese (pt)](https://docs.pushwoosh.com/pt/): Localized docs available on website.
+- [Korean (ko)](https://docs.pushwoosh.com/ko/): Localized docs available on website.
+- [Thai (th)](https://docs.pushwoosh.com/th/): Localized docs available on website.
+
+## Product documentation
+
+- [Product home](https://docs.pushwoosh.com/product/): Root of all product documentation.
+- [First steps](https://docs.pushwoosh.com/product/first-steps/): Create a project, configure platforms, subscribe users, and understand the interface.
+- [Messaging channels](https://docs.pushwoosh.com/product/messaging-channels/): Push notifications, email, SMS, in-app, Apple Wallet passes, Google Wallet passes, Web popups, WhatsApp, Telegram, LINE, Kakao, Viber, and message inbox.
+- [Customer Journey](https://docs.pushwoosh.com/product/customer-journey/): Build automated omnichannel campaigns with the visual Journey Builder.
+- [Audience and segmentation](https://docs.pushwoosh.com/product/audience-data-and-segmentation/): Manage user data, tags, events, and create targeted segments.
+- [Content](https://docs.pushwoosh.com/product/content/): Create and manage push presets, email templates, in-app messages, and SMS content.
+- [Personalization](https://docs.pushwoosh.com/product/personalization/): Dynamic content, Liquid templates, and multi-language messaging.
+- [Statistics and analytics](https://docs.pushwoosh.com/product/statistics-and-analytics/): Campaign performance, dashboards, message history, and retention analytics.
+- [Integrations](https://docs.pushwoosh.com/product/integrations/): Connect Pushwoosh with Amplitude, AppsFlyer, Google BigQuery, HubSpot, Shopify, Stripe, and more.
+- [Pushwoosh AI](https://docs.pushwoosh.com/product/pushwoosh-ai/): ManyMoney AI in the Control Panel, ManyMoney AI MCP for planning, and Messaging MCP for sending from Claude Desktop, Cursor, and other MCP clients.
+- [How-to guides](https://docs.pushwoosh.com/product/how-to-guides/): Step-by-step guides for lifecycle campaigns, personalization, and scheduling.
+- [Troubleshooting](https://docs.pushwoosh.com/product/troubleshooting/): Resolve delivery errors for iOS, Android, web, email, and Huawei.
+- [Release notes](https://docs.pushwoosh.com/product/release-notes/): Keep up with the latest updates in Pushwoosh. New features, improvements, deprecations, and release highlights in one place.
+
+## Developer documentation
+
+- [Developer home](https://docs.pushwoosh.com/developer/): Root of all developer documentation.
+- [Developer changelog](https://docs.pushwoosh.com/developer/changelog/): Track monthly SDK releases, API updates, and platform changes to plan upgrades and keep your Pushwoosh integrations current.
+- [First steps](https://docs.pushwoosh.com/developer/first-steps/): SDK setup, platform configuration, user subscription, and test integration.
+- [Pushwoosh SDK](https://docs.pushwoosh.com/developer/pushwoosh-sdk/): iOS, Android, Web, and cross-platform SDKs (React Native, Flutter, Cordova, Unity, Capacitor, Expo).
+- [API reference](https://docs.pushwoosh.com/developer/api-reference/): Full reference for Messages, Device, Email, Segmentation, Statistics, and other APIs.
+- [Guides](https://docs.pushwoosh.com/developer/guides/): Deep-dive guides on tags, events, deep linking, personalization, and Customer Journey integration.
+- [Troubleshooting](https://docs.pushwoosh.com/developer/troubleshooting/): Platform-specific error codes and fixes for iOS, Android, Huawei, Windows, and email.
+
+## Optional
+
+- [Detailed index](https://docs.pushwoosh.com/llms-index-detailed.txt): Extended English index grouped by sections with page descriptions.
+- [Full text](https://docs.pushwoosh.com/llms-full.txt): Curated English `product/`+`developer/` documentation content in a single file, for models that can't crawl the site.

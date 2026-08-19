@@ -1,0 +1,384 @@
+{
+  "item": [
+    {
+      "id": "0812da45-3599-4c5c-b20b-27fa294a0b07",
+      "name": "Messages",
+      "description": {
+        "content": "",
+        "type": "text/plain"
+      },
+      "item": [
+        {
+          "id": "39a7632c-7276-415c-a0bf-83803d7be3cb",
+          "name": "Create a message (deprecated, use createTargetedMessage or Messaging API v2)",
+          "request": {
+            "name": "Create a message (deprecated, use createTargetedMessage or Messaging API v2)",
+            "description": {},
+            "url": {
+              "path": [
+                "createMessage"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "POST",
+            "auth": null,
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"request\": {\n    \"auth\": \"<string>\",\n    \"application\": \"<string>\",\n    \"notifications\": [\n      {\n        \"send_date\": \"<string>\",\n        \"content\": \"<string>\",\n        \"devices\": [\n          \"<string>\",\n          \"<string>\"\n        ],\n        \"users\": [\n          \"<string>\",\n          \"<string>\"\n        ],\n        \"filter\": \"<string>\",\n        \"conditions\": [\n          \"<array>\",\n          \"<array>\"\n        ],\n        \"data\": {\n          \"key_0\": \"string\",\n          \"key_1\": false,\n          \"key_2\": \"string\"\n        },\n        \"ios_title\": \"<string>\",\n        \"android_header\": \"<string>\",\n        \"page_id\": \"<integer>\"\n      },\n      {\n        \"send_date\": \"<string>\",\n        \"content\": \"<string>\",\n        \"devices\": [\n          \"<string>\",\n          \"<string>\"\n        ],\n        \"users\": [\n          \"<string>\",\n          \"<string>\"\n        ],\n        \"filter\": \"<string>\",\n        \"conditions\": [\n          \"<array>\",\n          \"<array>\"\n        ],\n        \"data\": {\n          \"key_0\": 6240.2632533864835,\n          \"key_1\": 2018.896265628881\n        },\n        \"ios_title\": \"<string>\",\n        \"android_header\": \"<string>\",\n        \"page_id\": \"<integer>\"\n      }\n    ]\n  }\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": [
+            {
+              "id": "dc7f2013-600b-433d-ade4-0a309535a216",
+              "name": "Standard JSON response envelope.",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "createMessage"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "POST",
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n  \"request\": {\n    \"auth\": \"<string>\",\n    \"application\": \"<string>\",\n    \"notifications\": [\n      {\n        \"send_date\": \"string\",\n        \"content\": \"string\",\n        \"devices\": [\n          \"string\",\n          \"string\"\n        ],\n        \"users\": [\n          \"string\",\n          \"string\"\n        ],\n        \"filter\": \"string\",\n        \"conditions\": [\n          [],\n          []\n        ],\n        \"data\": {\n          \"key_0\": 2113,\n          \"key_1\": true\n        },\n        \"ios_title\": \"string\",\n        \"android_header\": \"string\",\n        \"page_id\": 9043\n      },\n      {\n        \"send_date\": \"string\",\n        \"content\": \"string\",\n        \"devices\": [\n          \"string\",\n          \"string\"\n        ],\n        \"users\": [\n          \"string\",\n          \"string\"\n        ],\n        \"filter\": \"string\",\n        \"conditions\": [\n          [],\n          []\n        ],\n        \"data\": {\n          \"key_0\": 9087.086134056031,\n          \"key_1\": 2609.1977985685553\n        },\n        \"ios_title\": \"string\",\n        \"android_header\": \"string\",\n        \"page_id\": 5620,\n        \"key_0\": 9635,\n        \"key_1\": 4483.7004549226585\n      }\n    ]\n  }\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                }
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "{\n  \"status_code\": 3459,\n  \"status_message\": \"string\",\n  \"response\": {\n    \"key_0\": \"string\"\n  }\n}",
+              "cookie": [],
+              "_postman_previewlanguage": "json"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "96e98f8c-a719-470a-9e51-974bc80fb21a",
+          "name": "Create a targeted message",
+          "request": {
+            "name": "Create a targeted message",
+            "description": {},
+            "url": {
+              "path": [
+                "createTargetedMessage"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "POST",
+            "auth": null,
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"request\": {\n    \"auth\": \"<string>\",\n    \"devices_filter\": \"<string>\",\n    \"send_date\": \"<string>\",\n    \"content\": \"<string>\",\n    \"ios_title\": \"<string>\",\n    \"android_header\": \"<string>\",\n    \"page_id\": \"<integer>\",\n    \"data\": {\n      \"key_0\": 7183,\n      \"key_1\": 4785,\n      \"key_2\": \"string\"\n    }\n  }\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": [
+            {
+              "id": "eea70c8f-3e7b-4d83-beb6-fa0794d78102",
+              "name": "Standard JSON response envelope.",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "createTargetedMessage"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "POST",
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n  \"request\": {\n    \"auth\": \"<string>\",\n    \"devices_filter\": \"<string>\",\n    \"send_date\": \"<string>\",\n    \"content\": \"<string>\",\n    \"ios_title\": \"<string>\",\n    \"android_header\": \"<string>\",\n    \"page_id\": \"<integer>\",\n    \"data\": {\n      \"key_0\": \"string\"\n    }\n  }\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                }
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "{\n  \"status_code\": 3459,\n  \"status_message\": \"string\",\n  \"response\": {\n    \"key_0\": \"string\"\n  }\n}",
+              "cookie": [],
+              "_postman_previewlanguage": "json"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "c2b6232d-8296-42b8-b23d-62c64443afaa",
+          "name": "Delete a queued message",
+          "request": {
+            "name": "Delete a queued message",
+            "description": {},
+            "url": {
+              "path": [
+                "deleteMessage"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "POST",
+            "auth": null,
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"request\": {\n    \"auth\": \"<string>\",\n    \"message\": \"<string>\"\n  }\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": [
+            {
+              "id": "9f052a4d-3b3a-46a5-8209-cee4adb52622",
+              "name": "Standard JSON response envelope.",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "deleteMessage"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "POST",
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n  \"request\": {\n    \"auth\": \"<string>\",\n    \"message\": \"<string>\"\n  }\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                }
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "{\n  \"status_code\": 3459,\n  \"status_message\": \"string\",\n  \"response\": {\n    \"key_0\": \"string\"\n  }\n}",
+              "cookie": [],
+              "_postman_previewlanguage": "json"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        },
+        {
+          "id": "299589b4-7ae9-497d-b543-48a6a8311d10",
+          "name": "Retrieve message details",
+          "request": {
+            "name": "Retrieve message details",
+            "description": {},
+            "url": {
+              "path": [
+                "getMessageDetails"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "POST",
+            "auth": null,
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"request\": {\n    \"auth\": \"<string>\",\n    \"message\": \"<string>\"\n  }\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": [
+            {
+              "id": "b63f11e6-c85b-4a33-ac19-2ab4aef1c52e",
+              "name": "Standard JSON response envelope with message metadata.",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "getMessageDetails"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "POST",
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n  \"request\": {\n    \"auth\": \"<string>\",\n    \"message\": \"<string>\"\n  }\n}",
+                  "options": {
+                    "raw": {
+                      "language": "json"
+                    }
+                  }
+                }
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "{\n  \"status_code\": 3459,\n  \"status_message\": \"string\",\n  \"response\": {\n    \"key_0\": \"string\"\n  }\n}",
+              "cookie": [],
+              "_postman_previewlanguage": "json"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        }
+      ],
+      "event": []
+    }
+  ],
+  "event": [],
+  "variable": [
+    {
+      "type": "string",
+      "value": "https://api.pushwoosh.com/json/1.3",
+      "key": "baseUrl"
+    }
+  ],
+  "info": {
+    "_postman_id": "d2e1a255-a96f-4031-867e-689194aef115",
+    "name": "Pushwoosh Messaging Messages API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": {
+      "content": "Pushwoosh is a customer engagement platform offering push notifications,\nin-app messaging, email, SMS, and Live Activities for mobile and web.\nThe Messaging API (v1.3) exposes JSON-RPC-style endpoints for creating\nand managing messages, targeted campaigns, and message details.\nAuthentication is performed by including the `auth` field (API access\ntoken from the Pushwoosh Control Panel) in the JSON request body.\n\n\nContact Support:\n Name: Pushwoosh",
+      "type": "text/plain"
+    }
+  }
+}
