@@ -18,6 +18,12 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pushwoosh.png
 tags:
+  - Notification
+  - Push
+  - Email
+  - SMS
+  - Multi-Channel
+tags_raw:
   - Notifications
   - Push
   - Email
@@ -43,6 +49,9 @@ apis:
   humanURL: https://docs.pushwoosh.com/platform-docs/api-reference
   baseURL: https://api.pushwoosh.com
   tags:
+  - Devices
+  - User
+  tags_raw:
   - Devices
   - Users
   properties:
@@ -72,6 +81,8 @@ apis:
   humanURL: https://docs.pushwoosh.com/platform-docs/api-reference
   baseURL: https://api.pushwoosh.com
   tags:
+  - Message
+  tags_raw:
   - Messages
   properties:
   - type: OpenAPI
