@@ -4,6 +4,18 @@ name: Pushwoosh
 kind: company
 description: Pushwoosh is a customer engagement platform offering push notifications, in-app messaging, email, SMS, and Live
   Activities for mobile and web. Strong segmentation and journey-builder.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: true
+  label: Hosted service · you call their endpoint
+  confidence: high
+  source:
+  - openapi
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
