@@ -1,4 +1,4 @@
-openapi: 3.1.0
+openapi: 3.2.0
 info:
   title: Pushwoosh Messaging Messages API
   version: '1.3'
@@ -12,9 +12,7 @@ info:
 
     Authentication is performed by including the `auth` field (API access
 
-    token from the Pushwoosh Control Panel) in the JSON request body.
-
-    '
+    token from the Pushwoosh Control Panel) in the JSON request body.'
   contact:
     name: Pushwoosh
     url: https://www.pushwoosh.com/
@@ -192,6 +190,18 @@ paths:
                 $ref: '#/components/schemas/StandardResponse'
 components:
   schemas:
+    StandardResponse:
+      type: object
+      description: Standard Pushwoosh response envelope.
+      properties:
+        status_code:
+          type: integer
+          description: 200 success, 210 argument error, 400 malformed, 500 internal error.
+        status_message:
+          type: string
+        response:
+          type: object
+          additionalProperties: true
     Notification:
       type: object
       description: Single notification payload inside createMessage.notifications.
@@ -233,18 +243,6 @@ components:
           type: string
         page_id:
           type: integer
-    StandardResponse:
-      type: object
-      description: Standard Pushwoosh response envelope.
-      properties:
-        status_code:
-          type: integer
-          description: 200 success, 210 argument error, 400 malformed, 500 internal error.
-        status_message:
-          type: string
-        response:
-          type: object
-          additionalProperties: true
 externalDocs:
   description: Pushwoosh platform API reference
   url: https://docs.pushwoosh.com/platform-docs/api-reference
