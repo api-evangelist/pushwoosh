@@ -32,7 +32,25 @@ edges:
       - pushwoosh-source
   detected_by: sweep-cdp.py
   first_seen: '2026-10-14'
+- partner_name: HubSpot (own)
+  partner: hubspot
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://ecosystem.hubspot.com/marketplace/listing/pushwoosh
+  mirror_of: hubspot/integrations/hubspot-integration-edges.yml
+  apps:
+  - Pushwoosh
+  listing_count: 1
+  detected: '2026-10-21'
+  detected_by: mirror-platform-listings.py
+  category: CRM
 method: searched
 checked:
 - https://www.twilio.com/docs/segment/connections/destinations/catalog/actions-pushwoosh
+- hubspot/integrations/hubspot-integration-edges.yml
 source: https://www.twilio.com/docs/segment/connections/destinations/catalog/actions-pushwoosh
