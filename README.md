@@ -1,4 +1,4 @@
-# Pushwoosh (pushwoosh)
+# Pushwoosh
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,106 +66,127 @@
 
 Pushwoosh is a customer engagement platform offering push notifications, in-app messaging, email, SMS, and Live Activities for mobile and web. Strong segmentation and journey-builder.
 
-**APIs.json:** [https://raw.githubusercontent.com/api-evangelist/pushwoosh/refs/heads/main/apis.yml](https://raw.githubusercontent.com/api-evangelist/pushwoosh/refs/heads/main/apis.yml)
+**Areas:** Notification · Push · Email · SMS · Multi-Channel
 
-## Tags
+## Pushwoosh on APIs.io
 
-- Notifications
-- Push
-- Email
-- SMS
-- Multi-Channel
+Everything profiled for Pushwoosh is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/pushwoosh/](https://apis.io/providers/pushwoosh/)** — or go straight to one of the APIs or properties below.
 
-## Timestamps
+### APIs (5)
 
-- **Created:** 2026-05-08
-- **Modified:** 2026-05-08
+- [Pushwoosh Messaging API](https://apis.io/apis/pushwoosh/pushwoosh-messaging-api/) — Send push notifications, email, SMS and in-app messages to user audiences.
+- [Pushwoosh Devices & Users API](https://apis.io/apis/pushwoosh/pushwoosh-devices-users-api/) — Register and manage devices and end-user profiles.
+- [Pushwoosh Audience & Segmentation API](https://apis.io/apis/pushwoosh/pushwoosh-audience-segmentation-api/) — Tags, filters and segments for dynamic audience targeting.
+- [Pushwoosh Statistics API](https://apis.io/apis/pushwoosh/pushwoosh-statistics-api/) — Read campaign and message performance statistics.
+- [Pushwoosh Messages API](https://apis.io/apis/pushwoosh/pushwoosh-messages-api/) — The Messages API from Pushwoosh — 4 operation(s) for messages.
 
-## APIs
+### Published properties
 
-### Pushwoosh Messaging API
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-Send push notifications, email, SMS and in-app messages to user audiences.
+#### MCP servers (1)
 
-- **Human URL:** [https://docs.pushwoosh.com/platform-docs/api-reference](https://docs.pushwoosh.com/platform-docs/api-reference)
-- **Base URL:** `https://api.pushwoosh.com`
+Model Context Protocol servers that expose the API to agents.
 
-#### Tags
+- [Moved to /providers/pushwoosh/](https://apis.io/servers/pushwoosh/pushwoosh/)
 
-- Push
-- Email
-- SMS
+#### Agentic access (1)
 
-#### Properties
+Which operations an agent can call, which act, and which need a human in the loop.
 
-- [Documentation](https://docs.pushwoosh.com/platform-docs/api-reference)
-- [Postman Collection](collections/pushwoosh.postman_collection.json) — [Postman Collection 2.1](https://schema.getpostman.com/json/collection/v2.1.0/collection.json)
-- [Open Collection](collections/pushwoosh.opencollection.json) — [Open Collection 1.0](https://schema.opencollection.com/opencollection/v1.0.0.json)
+- [Pushwoosh Agentic Access](https://apis.io/agentic-access/pushwoosh/pushwoosh-agentic-access/)
 
-### Pushwoosh Devices & Users API
+#### Collections (2)
 
-Register and manage devices and end-user profiles.
+Postman and Open Collection request collections.
 
-- **Human URL:** [https://docs.pushwoosh.com/platform-docs/api-reference](https://docs.pushwoosh.com/platform-docs/api-reference)
-- **Base URL:** `https://api.pushwoosh.com`
+- [Pushwoosh Messaging API](https://apis.io/collections/pushwoosh/open-pushwoosh/)
+- [Pushwoosh Messaging Messages API](https://apis.io/collections/pushwoosh/open-pushwoosh-messages-api/)
 
-#### Tags
+#### Security (2)
 
-- Devices
-- Users
+Authentication, trust centre, and vulnerability disclosure.
 
-#### Properties
+- [Pushwoosh Domain Security](https://apis.io/security/pushwoosh/pushwoosh-domain-security/)
+- [Pushwoosh Trust Center](https://apis.io/security/pushwoosh/pushwoosh-trust-center/)
 
-- [Documentation](https://docs.pushwoosh.com/platform-docs/api-reference)
-- [Postman Collection](collections/pushwoosh.postman_collection.json) — [Postman Collection 2.1](https://schema.getpostman.com/json/collection/v2.1.0/collection.json)
-- [Open Collection](collections/pushwoosh.opencollection.json) — [Open Collection 1.0](https://schema.opencollection.com/opencollection/v1.0.0.json)
+#### Plans and pricing (1)
 
-### Pushwoosh Audience & Segmentation API
+Published plans, tiers and prices.
 
-Tags, filters and segments for dynamic audience targeting.
+- [Pushwoosh Plans Pricing](https://apis.io/plans/pushwoosh/pushwoosh-plans-pricing/)
 
-- **Human URL:** [https://docs.pushwoosh.com/platform-docs/api-reference](https://docs.pushwoosh.com/platform-docs/api-reference)
-- **Base URL:** `https://api.pushwoosh.com`
+#### Rate limits (1)
 
-#### Tags
+Published request limits.
 
-- Segmentation
+- [Pushwoosh Rate Limits](https://apis.io/rate-limits/pushwoosh/pushwoosh-rate-limits/)
 
-#### Properties
+#### FinOps (1)
 
-- [Documentation](https://docs.pushwoosh.com/platform-docs/api-reference)
-- [Postman Collection](collections/pushwoosh.postman_collection.json) — [Postman Collection 2.1](https://schema.getpostman.com/json/collection/v2.1.0/collection.json)
-- [Open Collection](collections/pushwoosh.opencollection.json) — [Open Collection 1.0](https://schema.opencollection.com/opencollection/v1.0.0.json)
+What the API costs to run, by operation.
 
-### Pushwoosh Statistics API
+- [Pushwoosh Finops](https://apis.io/finops/pushwoosh/pushwoosh-finops/)
 
-Read campaign and message performance statistics.
+## Where to find this API
 
-- **Human URL:** [https://docs.pushwoosh.com/platform-docs/api-reference](https://docs.pushwoosh.com/platform-docs/api-reference)
-- **Base URL:** `https://api.pushwoosh.com`
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
-#### Tags
-
-- Analytics
-
-#### Properties
-
-- [Documentation](https://docs.pushwoosh.com/platform-docs/api-reference)
-- [Postman Collection](collections/pushwoosh.postman_collection.json) — [Postman Collection 2.1](https://schema.getpostman.com/json/collection/v2.1.0/collection.json)
-- [Open Collection](collections/pushwoosh.opencollection.json) — [Open Collection 1.0](https://schema.opencollection.com/opencollection/v1.0.0.json)
-
-## Common Properties
-
-- [GitHub Organization](https://github.com/Pushwoosh)
-- [LinkedIn](https://www.linkedin.com/company/pushwoosh)
 - [Website](https://www.pushwoosh.com/)
-- [Plans](plans/pushwoosh-plans-pricing.yml)
-- [Rate Limits](rate-limits/pushwoosh-rate-limits.yml)
-- [Fin Ops](finops/pushwoosh-finops.yml)
-- [Integrations](https://www.pushwoosh.com/integrations/)
-- [L L Ms Txt](https://docs.pushwoosh.com/llms.txt)
+- [Blog](https://www.pushwoosh.com/blog/)
+- [GitHub](https://github.com/Pushwoosh)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
-**Email:** kin@apievangelist.com
+**Kin Score 20.6** — emerging · rubric 0.25.0 · scored 2026-10-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.7 |
+| Contract quality | 41.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 7.9 |
+| Developer ergonomics | 11.9 |
+| Access clarity | 13.2 |
+
+**Agent readiness 29.1** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | derived (partial credit) |
+| Reversibility Documented | — |
+| MCP Server | verified |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 9.2** — Telecommunications
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/pushwoosh/](https://apis.io/providers/pushwoosh/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Pushwoosh: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/pushwoosh/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
